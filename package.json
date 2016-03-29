@@ -1,0 +1,20 @@
+{
+  "name": "batchjobhelper",
+  "version": "0.0.1",
+  "description": "A node js helper for processing data concurrently",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosspace/batchJobHelper.git"
+  },
+  "keywords": [
+    "batch",
+    "concurrency"
+  ],
+  "author": "Ross Pace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosspace/batchJobHelper/issues"
+  },
+  "homepage": "https://github.com/rosspace/batchJobHelper#readme"
+}
