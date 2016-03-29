@@ -1,5 +1,5 @@
 var batchObjectHelper = require('./'),
-    batchObject = batchObjectHelper.batchObject,
+    BatchObject = batchObjectHelper.BatchObject,
     batchJob = new batchObjectHelper.BatchJob(),
     EventEmitter = require('events'),
     util = require('util'),
@@ -16,7 +16,7 @@ if (!arg) {
 
     console.log('creating from array');
     try {
-        fromArray = batchObject.create(data);
+        fromArray = new BatchObject(data);
     } catch (ex) {
         console.error('fromArray: ', ex);
     }
@@ -28,7 +28,7 @@ if (!arg) {
         };
         util.inherits(MyStream, EventEmitter);
         stream = new MyStream();
-        fromStream = batchObject.create(stream);
+        fromStream = new BatchObject(stream);
     } catch (ex) {
         console.error('fromStream: ', ex);
     }

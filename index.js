@@ -1,6 +1,6 @@
 
 module.exports = {
-    batchObject: require('./lib/batchObject'),
+    BatchObject: require('./lib/batchObject'),
     BatchJob: require('./lib/batchJobCore'),
     handleError: handleError,
     next: next
