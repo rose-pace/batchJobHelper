@@ -40,7 +40,9 @@ process.on('message', function (m) {
 ## Handling the message sent to the worker process
 The message sent to the worker process is an object with two properties:
 `{ item: item, options: options }`
+
 **item** is a single item from the BatchObject. In the example above it would be in integer.
+
 **options** is the options object passed in to the processBatchItems function. In the example above it would be `{ test: 'fromArray' }`.
 
 You can use the same script to kick off the batch and process the batch. Use the process arg to tell whether you are in the master process or in the child worker process:
