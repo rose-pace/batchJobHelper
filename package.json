@@ -1,6 +1,6 @@
 {
   "name": "batchjobhelper",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A node js helper for processing data concurrently",
   "main": "index.js",
   "repository": {
