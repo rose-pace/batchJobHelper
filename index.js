@@ -1,3 +1,4 @@
+var utils = require('./lib/utils');
 
 module.exports = {
     BatchObject: require('./lib/batchObject'),
